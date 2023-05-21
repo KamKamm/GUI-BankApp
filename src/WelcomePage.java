@@ -31,5 +31,10 @@ public class WelcomePage {
         frame.getContentPane().revalidate();
         frame.getContentPane().repaint();
 
+        landingPage = new LandingPage(frame);
+        frame.getContentPane().add(landingPage);
+
+        frame.setVisible(true);
+
     }
 }
